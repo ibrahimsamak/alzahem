@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Simple table cell showing a city/district name in the location pickers.
 class CityCell: UITableViewCell {
 
     @IBOutlet weak var lblName: UILabel!
