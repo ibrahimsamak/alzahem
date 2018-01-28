@@ -9,6 +9,8 @@
 import UIKit
 import TextFieldEffects
 
+/// "Forgot password" screen: collects an email and triggers the password-reset
+/// request (`MyApi.PostForgetPassword`).
 class SAForgetPassword: UIViewController {
     
     @IBOutlet weak var btn: UIButton!
