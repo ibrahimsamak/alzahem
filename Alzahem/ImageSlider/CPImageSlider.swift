@@ -9,6 +9,12 @@
 import UIKit
 import SDWebImage
 
+// Third-party: CPImageSlider by Amit Singh (Code Protocols). A paged image
+// banner (scroll view + page control + optional arrows) loaded from its XIB,
+// with auto-scroll and remote image loading via SDWebImage. Driven by
+// `SliderCell` on the home screen; taps are reported through `CPSliderDelegate`.
+
+/// Reports which slide was tapped back to the host.
 @objc protocol CPSliderDelegate: NSObjectProtocol
 {
 	func sliderImageTapped(slider: CPImageSlider, index: Int)
