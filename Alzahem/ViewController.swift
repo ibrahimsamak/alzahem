@@ -8,6 +8,8 @@
 
 import UIKit
 
+/// Default template view controller generated with the project. Unused in the
+/// live flow — the app's real screens live under `Views/`, `Out View/` etc.
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
