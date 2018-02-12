@@ -2,6 +2,10 @@ import Foundation
 import UIKit
 import SystemConfiguration
 
+// Reusable UI helpers focused on view styling: corner-rounding, borders, drop
+// shadows, and `applyGradient(...)` (with the `GradientOrientation` enum below),
+// plus device/screen helpers like `UIDevice.modelName` and `UIScreen.sizeType`.
+// `dropShadow()` in particular is used by most of the app's card cells.
 
 extension UIColor {
     
