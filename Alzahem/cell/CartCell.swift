@@ -8,6 +8,9 @@
 
 import UIKit
 
+/// Table cell for one product line in the cart: image, title, old/new price,
+/// stock badge, a quantity stepper (plus/minus + field) and a delete button.
+/// `awakeFromNib` rounds the card and mirrors text alignment for Arabic.
 class CartCell: UITableViewCell {
     
     @IBOutlet weak var btnDelete: UIButton!
