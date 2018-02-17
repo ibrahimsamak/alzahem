@@ -9,7 +9,8 @@
 import UIKit
 
 extension UIImage{
-    //Draws the top indicator by making image with filling color
+    /// Builds a 1/30-height coloured bar image used as the tab bar's selection
+    /// indicator, positioned at the top or bottom of the item.
     class func drawTabBarIndicator(color: UIColor, size: CGSize, onTop: Bool) -> UIImage {
         let indicatorHeight = size.height / 30
         let yPosition = onTop ? 0 : (size.height - indicatorHeight)
