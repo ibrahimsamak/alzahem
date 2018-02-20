@@ -8,6 +8,8 @@
 
 import UIKit
 
+/// Compact collection-view cell for a product inside a horizontal carousel
+/// (image, title, price, discount and sold-out overlays).
 class RecentPrductCell: UICollectionViewCell {
 
     @IBOutlet weak var contentViewCell: UIView!
