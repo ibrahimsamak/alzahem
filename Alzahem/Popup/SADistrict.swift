@@ -9,11 +9,14 @@
 import  UIKit
 import SDWebImage
 
+/// Callback for the selected district (id, name and any nested data).
 protocol DistrictProtocol
 {
     func sendFilter(DistrictID:String , DistrictName:String , Data:NSArray)
 }
 
+/// Modal picker listing districts (typically for the city chosen in `SACity`).
+/// The selection is reported back through `delegate` (`DistrictProtocol`).
 class SADistrict: UIViewController , UITableViewDelegate , UITableViewDataSource
 {
     @IBOutlet weak var tbl: UITableView!
