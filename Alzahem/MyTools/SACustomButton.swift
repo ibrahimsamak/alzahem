@@ -9,8 +9,11 @@
 import Foundation
 import UIKit
 
+/// Button that picks its title font by language: `ar_font` is applied when the
+/// app is in Arabic, `en_font` otherwise. Both sizes are set in Interface Builder.
 class SACustomButton: UIButton
 {
+    /// Font size used for the button title when the language is Arabic.
     @IBInspectable
     public var ar_font: CGFloat = 17 {
         didSet {
