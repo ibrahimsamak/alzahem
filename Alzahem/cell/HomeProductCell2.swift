@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Variant of `HomeProductCell` used for a second home-screen product section.
 class HomeProductCell2: UITableViewCell {
 
     @IBOutlet weak var lblTitle: UILabel!
