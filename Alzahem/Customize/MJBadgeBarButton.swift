@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+// Third-party: MJBadgeBarButton by Mohamed Jaleel Nazir
+// (github.com/mjnazir/MJBadgeButton). A `UIBarButtonItem` that overlays a badge
+// bubble — used for the cart-count badge in the navigation bar.
 class MJBadgeBarButton: UIBarButtonItem
 {
     // Badge value to be display
