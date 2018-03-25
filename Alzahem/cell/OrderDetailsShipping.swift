@@ -8,6 +8,9 @@
 
 import UIKit
 
+/// Header/summary cell for the order-details screen: shipping address, invoice
+/// id, order status, payment method and shipping price, laid out in three
+/// bordered sub-views.
 class OrderDetailsShipping: UITableViewCell {
 
     @IBOutlet weak var lblAddress: UILabel!
