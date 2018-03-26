@@ -8,12 +8,15 @@
 
 import UIKit
 
+/// Callback for the selected city (id, name and its shipping price).
 protocol CityProtocol
 {
     func sendFilterCity(CityID:String , CityName:String,Price:String)
 }
 
 
+/// Modal picker listing cities/governorates. The chosen city is reported back to
+/// the presenting screen through `delegate` (`CityProtocol`).
 class SACity: UIViewController , UITableViewDelegate , UITableViewDataSource {
 
     @IBOutlet weak var tbl: UITableView!
