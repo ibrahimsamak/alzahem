@@ -9,6 +9,7 @@
 import UIKit
 import SwiftyOnboard
 
+/// A single onboarding page (image + title + subtitle) loaded from its nib.
 class CustomPage: SwiftyOnboardPage {
     
     @IBOutlet weak var titleLabel: UILabel!
