@@ -9,19 +9,33 @@
 import Foundation
 import Alamofire
 
+/// Single access point for the whole REST backend. Each method wraps one
+/// endpoint using Alamofire and reports back through a
+/// `(DataResponse<Any>, Error?)` completion (nil error == success). Requests
+/// attach the app's custom headers — `Customer-Language`, `Customer-Currency`
+/// and, for authenticated calls, `Authorization` (the raw token) — read from
+/// `MyTools.tools`. Responses are consumed as raw JSON at the call sites; there
+/// are no `Codable` models.
 class MyApi
 {
+    /// Shared singleton used throughout the app.
     static let api = MyApi()
-    
+
+    /// Base URL every request is built on top of.
     static public var apiMainURL = "https://app.alzahem-industries.com/api/" as String
+    /// Base URL for images (populated from remote config where needed).
     static public var PhotoURL = "" as String
-    
+
+    /// The account roles the backend recognises.
     enum userType :String {
         case customer   = "customer"
         case contractor = "contractor"
         case handyman   = "handyman"
     }
-    
+
+    // MARK: - User account
+
+    /// Uploads a new avatar image for the given user (multipart form upload).
     func PostEditUser(userId:String,file:Data, completion:((DataResponse<Any>,Error?)->Void)!) {
         let headers: HTTPHeaders =
             [
@@ -57,6 +71,9 @@ class MyApi
     }
     
     
+    /// Registers a new customer/contractor/handyman. Sends profile image plus,
+    /// for provider types, category ids, portfolio images and role-specific
+    /// fields (company name / civil id / 24h availability) as multipart form data.
     func PostSignUpNewUser(name:String,email:String ,mobile:String , password :String , type:String,is_24:String , company_name:String,category_id:[Int] , profile_image:Data , civil_id:String,images:[UIImage] ,completion:((DataResponse<Any>,Error?)->Void)!)
     {
         
@@ -220,6 +237,7 @@ class MyApi
     }
     
     
+    /// Authenticates a user with username + password.
     func PostLoginUser(username:String ,pass:String ,completion:((DataResponse<Any>,Error?)->Void)!)
     {
         
@@ -241,7 +259,10 @@ class MyApi
         }
     }
     
+    // MARK: - Jobs & offers
+
     //offer/CustomerResponse
+    /// Customer accepts or rejects a provider's offer on a job.
     func postAcceptorRejectBbCustomer(job_id:Int,offer_id:Int ,status:String ,completion:((DataResponse<Any>,Error?)->Void)!)
     {
         
@@ -775,6 +796,9 @@ class MyApi
     }
     
     
+    // MARK: - Catalogue (products, categories, favourites)
+
+    /// Returns a paginated list of all products.
     func GetProducts(page:String,completion:((DataResponse<Any>,Error?)->Void)!)
     {
         let headers: HTTPHeaders = [
@@ -922,6 +946,9 @@ class MyApi
         
     }
     
+    // MARK: - Cart & checkout
+
+    /// Validates the cart contents (prices/stock) against the server before checkout.
     func PostCheckCart(line_items:[NSDictionary],completion:((DataResponse<Any>,Error?)->Void)!)
     {
         let headers: HTTPHeaders = [
@@ -944,6 +971,8 @@ class MyApi
         }
     }
     
+    /// Places an order: sends line items, shipping details, totals and the
+    /// chosen payment method to create a purchase server-side.
     func PostPurchase(user_id:String,user_comments:String , total :String , payment_method:String,payment_method_title:String,line_items:[NSDictionary],shipping:NSDictionary ,completion:((DataResponse<Any>,Error?)->Void)!)
     {
         let headers: HTTPHeaders = [
