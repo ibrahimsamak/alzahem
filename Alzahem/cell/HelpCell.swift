@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Table cell for a help/FAQ entry (icon + title).
 class HelpCell: UITableViewCell {
 
     @IBOutlet weak var img: UIImageView!
