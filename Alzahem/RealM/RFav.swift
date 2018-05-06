@@ -9,9 +9,11 @@
 import Foundation
 import RealmSwift
 
+/// Realm model for a favourited product. Persisted locally and managed through
+/// `RealmFunctions`; `pk_i_id` (the product id) is the primary key.
 class RFav: Object
 {
-    @objc dynamic var pk_i_id : String = ""
+    @objc dynamic var pk_i_id : String = ""      // product id (primary key)
     @objc dynamic var seller_id : Int = 0
     @objc dynamic var s_token : String = ""
     @objc dynamic var s_type : String = ""
@@ -27,10 +29,11 @@ class RFav: Object
 
     
     
+    /// Product id is the primary key, so adds upsert instead of duplicating.
     override class func primaryKey() -> String?
     {
         return "pk_i_id"
     }
-    
+
 }
 
