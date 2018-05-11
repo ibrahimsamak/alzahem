@@ -9,6 +9,11 @@
 import Foundation
 import UIKit
 
+// Third-party: MIBlurPopup by Mario Iannotta (github.com/MarioIannotta/MIBlurPopup).
+// Presents a view controller as a scaled-in popup over a blurred background.
+// Conforming controllers implement `MIBlurPopupDelegate` and call
+// `MIBlurPopup.show(_:on:)`. Used for the app's modal picker/popup screens.
+
 public protocol MIBlurPopupDelegate: class {
     var popupView: UIView { get }
     var blurEffectStyle: UIBlurEffectStyle { get }
