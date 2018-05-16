@@ -9,8 +9,11 @@
 import Foundation
 import UIKit
 
+/// `UILabel` subclass that paints its text with a horizontal gradient defined by
+/// two Interface-Builder-inspectable colours (`gradientFrom` / `gradientTo`).
+/// Note: duplicate of the `GradientLabel` declared in `GradiantLabel.swift`.
 class GradientLabel: UILabel {
-    
+
     // MARK: - Colors to create gradient from
     @IBInspectable
     open var gradientFrom: UIColor? {
