@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Small table cell that displays a single date label (RTL-aware alignment).
 class SADate: UITableViewCell {
 
     @IBOutlet weak var lblDate: UILabel!
