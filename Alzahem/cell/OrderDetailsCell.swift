@@ -8,6 +8,8 @@
 
 import UIKit
 
+/// Table cell for one purchased item inside the order-details screen (thumbnail,
+/// name, quantity, price). Rounded/bordered card, RTL-aware alignment.
 class OrderDetailsCell: UITableViewCell {
 
     @IBOutlet weak var lblQty: UILabel!
