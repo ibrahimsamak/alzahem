@@ -9,6 +9,8 @@
 import UIKit
 import SwiftyOnboard
 
+/// Onboarding page variant that promotes a product (image, title, description,
+/// price and a call-to-action button); RTL-aware alignment.
 class SliderAdvs: SwiftyOnboardPage {
     
     @IBOutlet weak var lblDesc: UILabel!
