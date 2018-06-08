@@ -8,6 +8,8 @@
 
 import UIKit
 
+/// Table cell for a favourited product: image, title, price, stock badge and a
+/// delete button. Styles the card and mirrors alignment for Arabic.
 class FavCell: UITableViewCell {
 
     @IBOutlet weak var btnDelete: UIButton!
