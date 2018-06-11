@@ -8,6 +8,9 @@
 
 import UIKit
 
+/// Scroll view (part of the bundled MMSegmentControl) that forwards touches to
+/// the next responder unless it is actively dragging — lets taps pass through to
+/// underlying controls while still supporting scroll gestures.
 internal class SCScrollView: UIScrollView {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if !isDragging {
