@@ -8,6 +8,8 @@
 
 import UIKit
 
+/// Table cell summarising an order in the orders list: id, date, quantity,
+/// price, thumbnail and a chevron. Shadowed card, mirrored for Arabic.
 class OrderCell: UITableViewCell {
 
     @IBOutlet weak var arrow: UIImageView!
