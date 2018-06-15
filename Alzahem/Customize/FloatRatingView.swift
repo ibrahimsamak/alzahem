@@ -8,6 +8,10 @@
 
 import UIKit
 
+// Third-party: FloatRatingView by Glen Yi (github.com/strekfus/FloatRatingView).
+// An `@IBDesignable` star-rating control supporting whole/half/floating ratings,
+// used on the product and provider rating screens.
+
 @objc public protocol FloatRatingViewDelegate {
     /**
     Returns the rating value when touch events end
