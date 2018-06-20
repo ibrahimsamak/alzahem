@@ -9,6 +9,8 @@
 import Foundation
 extension DateFormatter {
 
+    /// Returns a human-readable, Arabic "time ago" string (e.g. "منذ يوم",
+    /// "الان") describing how long ago `from` was relative to now.
     func timeSince(from: Date, numericDates: Bool = false) -> String {
         let calendar = Calendar.current
         let now = NSDate()
