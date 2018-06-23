@@ -9,6 +9,8 @@
 import UIKit
 import SwiftyOnboard
 
+/// Sample onboarding host from the SwiftyOnboard example project (kept as a
+/// reference/template; `SASliderVC` is the live equivalent).
 class StoryboardExampleViewController: UIViewController {
 
     @IBOutlet weak var swiftyOnboard: SwiftyOnboard!
