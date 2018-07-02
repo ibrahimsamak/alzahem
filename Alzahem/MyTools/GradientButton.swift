@@ -9,8 +9,10 @@
 import Foundation
 import UIKit
 
+/// `UIButton` subclass that renders its title with a horizontal gradient built
+/// from two Interface-Builder-inspectable colours (`gradientFrom`/`gradientTo`).
 class GradientButton: UIButton {
-    
+
     // MARK: - Colors to create gradient from
     @IBInspectable
     open var gradientFrom: UIColor? {
