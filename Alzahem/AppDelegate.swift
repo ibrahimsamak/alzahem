@@ -13,21 +13,33 @@ import Firebase
 import UserNotifications
 
 
+/// Global Realm instance shared by the whole app (see `RealmFunctions`).
 let uiRealm = try! Realm()
+
+/// Application entry point. Responsible for bootstrapping third-party SDKs
+/// (Firebase, push notifications, IQKeyboardManager), applying global UIKit
+/// appearance, seeding default `UserDefaults` values, choosing the root view
+/// controller based on the onboarding flag, and pre-fetching remote config /
+/// home-slider data.
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
+
+    /// Root navigation controller (retained for programmatic navigation).
     public var mainRootNav: UINavigationController?
+    /// Convenience handle to the main storyboard.
     static let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
     var window: UIWindow?
     var entries : NSDictionary!
+    /// Cached home-screen product slider payload.
     var obj:NSArray = []
+    /// Key used to read the message id out of an FCM push payload.
     let gcmMessageIDKey = "gcm.message_id"
 
     
     override init()
     {
         super.init()
+        // Register for push and configure Firebase as early as possible.
         UIApplication.shared.registerForRemoteNotifications()
         FirebaseApp.configure()
 //        Database.database().isPersistenceEnabled = false
@@ -47,7 +59,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
+
+        // Apply the saved localization (swaps the main bundle) and enable the
+        // keyboard-avoidance helper globally.
         Localizer.DoTheExchange()
         IQKeyboardManager.shared.enable = true
         
@@ -97,6 +111,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         
+         // Choose the initial screen: returning users (the "isFirst" flag is
+         // already set) go straight to the main tab bar, first-time users see
+         // the onboarding/auth flow.
          if ((UserDefaults.standard.value(forKey: "isFirst")) != nil)
          {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -171,6 +188,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     
+    /// Pre-fetches the home screen so the product slider is cached in
+    /// `UserDefaults` before the user reaches it.
     func loadData()
     {
         self.obj = []
@@ -208,6 +227,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
     
+    /// Fetches remote key/value config and mirrors every entry into
+    /// `UserDefaults` so screens can read settings synchronously.
     func SetupConfig()
     {
         if MyTools.tools.connectedToNetwork()
@@ -286,6 +307,8 @@ extension AppDelegate : UNUserNotificationCenterDelegate {
 extension AppDelegate : MessagingDelegate {
     
     
+    /// Hands the APNs token to Firebase and caches the resulting FCM token in
+    /// `UserDefaults` under "deviceToken" for later registration with the API.
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data)
     {
         Messaging.messaging().apnsToken = deviceToken
