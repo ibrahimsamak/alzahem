@@ -8,6 +8,8 @@
 
 import UIKit
 
+/// Table cell for a category row (title + disclosure button); flips alignment
+/// and the disclosure arrow for Arabic.
 class CategoryCell: UITableViewCell {
 
     @IBOutlet weak var lblTitle: UILabel!
