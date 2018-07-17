@@ -9,9 +9,11 @@
 import Foundation
 import UIKit
 
+/// Variant of `CustomeView` with a slightly smaller corner radius (20) and the
+/// same red border.
 class CustomeView2: UIView
 {
-    
+
     override func awakeFromNib()
     {
         super.awakeFromNib()
