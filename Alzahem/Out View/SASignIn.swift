@@ -9,6 +9,8 @@
 import UIKit
 import TextFieldEffects
 
+/// Login screen: email + password fields that authenticate via
+/// `MyApi.PostLoginUser` and store the returned user in `UserDefaults`.
 class SASignIn: UIViewController {
 
     @IBOutlet weak var btn: UIButton!
