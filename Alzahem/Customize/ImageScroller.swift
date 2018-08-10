@@ -9,13 +9,17 @@
 import UIKit
 import SDWebImage
 
+/// Notifies its owner when the visible page changes.
 protocol ImageScrollerDelegate {
     func pageChanged(index : Int)
 }
 
+/// Paging image carousel built on a horizontal `UIScrollView`. Call
+/// `setupScrollerWithImages(_:)` to populate it; supports optional timed
+/// auto-scroll and reports page changes through `delegate`.
 class ImageScroller: UIView
 {
-    
+
     var scrollView : UIScrollView = UIScrollView()
     var delegate : ImageScrollerDelegate? = nil
     var isAutoScrollEnabled = false
