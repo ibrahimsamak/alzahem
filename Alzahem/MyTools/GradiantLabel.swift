@@ -7,8 +7,13 @@
 //
 
 import Foundation
+
+/// `UILabel` subclass that paints its text with a horizontal gradient defined by
+/// two Interface-Builder-inspectable colours (`gradientFrom` / `gradientTo`).
+/// Note: this file and `GradientLabel.swift` both declare `GradientLabel` —
+/// duplicate definitions that shadow each other.
 class GradientLabel: UILabel {
-    
+
     // MARK: - Colors to create gradient from
     @IBInspectable
     open var gradientFrom: UIColor? {
