@@ -9,6 +9,9 @@
 import UIKit
 import Foundation
 
+// Third-party: AJAlertController by Arpit Jain. A custom, styled alert dialog
+// loaded from its own XIB. The app wraps it via the `showAlert…` helpers in
+// `Extension.swift`; the completion block reports the tapped button (index/title).
 class AJAlertController: UIViewController {
     
     // MARK:- Private Properties
