@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Reusable section header showing a category title above a group of rows.
 class SACategoryHeader: UITableViewHeaderFooterView {
     @IBOutlet weak var titleLabel: UILabel!
 
