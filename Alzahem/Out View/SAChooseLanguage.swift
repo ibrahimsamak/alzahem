@@ -8,6 +8,8 @@
 
 import UIKit
 
+/// First-run screen letting the user pick Arabic or English. The choice is
+/// persisted via `Language.setAppLanguage` and drives RTL/LTR layout app-wide.
 class SAChooseLanguage: UIViewController {
 
     @IBOutlet weak var btnAr: UIButton!
