@@ -8,6 +8,8 @@
 
 import UIKit
 
+/// Collection-view cell for a product in grid listings: image, title, price,
+/// optional discount badge, stock badge and a favourite toggle button.
 class ProductCell: UICollectionViewCell {
 
     @IBOutlet weak var lblDiscount: UILabel!
