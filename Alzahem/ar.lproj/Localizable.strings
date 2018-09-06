@@ -1,0 +1,84 @@
+/* 
+  Localizable.strings
+  Alzahem
+
+  Created by ibrahim M. samak on 8/2/18.
+  Copyright © 2018 ibrahim M. samak. All rights reserved.
+*/
+
+
+"Error" = "خطأ";
+"Done" = "موافق";
+"Success" = "نجاح";
+"Please select the image source" = "الرجاء اختيار الصورة";
+"Images" = "الصور";
+"Cancel" = "الغاء";
+"Photo Library" = "مكتبة الصور";
+"Camera" = "الكاميرا";
+"Terms and conditions" = "الأحكام والشروط";
+"Terms & Conditions" = "الأحكام والشروط";
+"Privacy Policy" = "سياسة الخصوصية";
+"An Error occurred" = "حدث خطأ";
+"No Internet Connection" = "لا يوجد اتصال بالانترنت";
+"You have to login to get your favourite items" = "يجب عليك تسجيل الدخول للحصول على العناصر المفضلة لديك";
+"out of stock" = "نفذ المخزون";
+" in stock" = " متوفر";
+"CATEGORY TITLES" = "عناوين الفئات";
+"ORDER HISTORY" = "سجل الطلبات";
+"Qty: " = "الكمية: ";
+"ORDER DETAILS" = "تقاصيل الطلب";
+"SHOPPING CART" = "السلة الشرائية";
+"You have an address would you like to change it?" = "تم ا ضافة عنوان سابقا هل ترغب في تغييره؟";
+"You have to add delivered address" = "الرجاء اضافة عنوان التوصيل";
+"You have to login to add item to your cart" = "يجب عليك تسجيل الدخول لإضافة عنصر إلى سلة التسوق الخاصة بك";
+"DELIVERY ADDRESS"  = "عنوان التوصيل";
+"All Fields are required" = "جميع الحقول مطلوبة";
+"PAYMENT DETAILS" =  "تفاصيل الدفع";
+" Product(s)" = " منتج";
+"INVOICE" = "الفاتورة";
+"Call" = "اتصل بنا";
+"Email" = "البريد الالكتروني";
+"SMS" = "ارسال رسالة";
+"About Us" = "من نحن";
+"About Application" = "عن التطبيق";
+"Terms & Conditions" = "الشروط والأحكام";
+"PRODUCTS" = "المنتجات";
+"You have to login to add item to your favourite" = "يجب عليك تسجيل الدخول لإضافة عنصر إلى المفضلة لديك";
+"Added to Cart Successfully" = "تم الاضافة الى سلة التسوق بنجاح";
+"PRODUCT DETAILS" = "تفاصيل المنتج";
+"You have to login to edit your profile" = "يجب عليك تسجيل الدخول لتعديل ملفك الشخصي";
+"Warning" = "تحذير";
+"Are you sure you want logout?" = "هل أنت متأكد من أنك تريد تسجيل الخروج؟";
+"Logout" = "تسجيل الخروج";
+"EDIT USER INFORMATION" = "تعديل الملف الشخصي";
+"EXPLORE" = "استعرض";
+"FAST DELIVERY" = "سرعة في التوصيل";
+"PAY IT" = "ادفع هنا";
+"Skip" = "تخطي";
+"Continue" = "متابعة";
+"Get Started!" = "ابدأ الان";
+"Find suitable product for your fashion style easily by swipe and scroll." = "العثور على منتج مناسب لأسلوب الموضة الخاص بك بسهولة عن طريق التمرير وانتقل.";
+"Process payment for your purchased items with your lovely payment method." = "الدفع عن طريق طرق الدفع المختلفةالمتوفرة لدينا.";
+"Within our dedicated delivery partner you’ll get your items fastly." = "من خلال شريك التسليم المخصص لدينا  ستحصل على العناصر الخاصة بك بسرعة.";
+"UIKit.font.Regular" = "GEDinarOne-Medium";
+"There is no quantity of this product" = "لا يوجد كمية من هذا المنتج";
+
+"street" = "الشارع";
+"block" = "المربع";
+"price" = "السعر";
+"state_name" = "المحافظة";
+"home" = "المنزل";
+"city_name" = "المدينة";
+"department" = "الدائرة";
+"you have to agree terms and condition to continue" = "عليك أن توافق على الشروط والأحكام للمتابعة";
+"use your current address: " = "هل تواد ارساله الى عنوانك الحالي: ";
+
+"Use" = "موافق";
+"Update" = "تعديل";
+"SUB CATEGORY TITLES" = "عنواين الفئات الفرعية";
+"Order No. " = "رقم الطلب: ";
+"Please enter a valid email" = "الرجاء ادخال بريد الكتروني بشكل صحيح";
+"link is not available right now" = "الرابط غير متوفر الآن";
+"Warning change currency type leads to remove all items from cart" = "يؤدي تغيير نوع العملة إلى إزالة جميع العناصر من سلة التسوق";
+"DATE: " = "التاريخ: ";
+"free delivery" = "التوصيل مجاني";

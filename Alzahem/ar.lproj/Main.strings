@@ -1,0 +1,279 @@
+
+/* Class = "UITextField"; placeholder = "More address details"; ObjectID = "0aj-pg-keD"; */
+"0aj-pg-keD.placeholder" = "العنوان بالتفصيل";
+
+/* Class = "UITextField"; placeholder = "Code"; ObjectID = "0n4-eX-2Gz"; */
+"0n4-eX-2Gz.placeholder" = "رمز التحقق";
+
+/* Class = "UILabel"; text = "By creating an account you agree"; ObjectID = "1EY-Ry-ENK"; */
+"1EY-Ry-ENK.text" = "عن طريق إنشاء حساب فإنك توافق على ذلك";
+
+/* Class = "UILabel"; text = "Flat"; ObjectID = "1LP-aw-u4r"; */
+"1LP-aw-u4r.text" = "الطابق";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "1b9-U0-UQl"; */
+"1b9-U0-UQl.text" = "البريد الالكتروني";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1kM-2X-VHq"; */
+"1kM-2X-VHq.text" = "Label";
+
+/* Class = "UILabel"; text = "Buy Now"; ObjectID = "28t-BM-BnJ"; */
+"28t-BM-BnJ.text" = "شراء المنتح";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "3ow-Hy-SUj"; */
+"3ow-Hy-SUj.placeholder" = "البريد الالكتروني";
+
+/* Class = "UIButton"; normalTitle = "Already have an account?"; ObjectID = "4th-oD-qQH"; */
+"4th-oD-qQH.normalTitle" = "هل لديك حساب؟";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5GZ-lh-Rdw"; */
+"5GZ-lh-Rdw.text" = "Label";
+
+/* Class = "UILabel"; text = "Cart is empty"; ObjectID = "6cA-CJ-c1A"; */
+"6cA-CJ-c1A.text" = "السلة فارغة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6cG-qQ-0zG"; */
+"6cG-qQ-0zG.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7Xd-jj-Q2x"; */
+"7Xd-jj-Q2x.text" = "Label";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "7kg-ou-eCj"; */
+"7kg-ou-eCj.text" = "اسم المستخدم";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "9wC-zf-F4f"; */
+"9wC-zf-F4f.text" = "رقم الجوال";
+
+/* Class = "UILabel"; text = "Block"; ObjectID = "APk-4z-br2"; */
+"APk-4z-br2.text" = "المكان";
+
+/* Class = "UILabel"; text = "19.000 K.D"; ObjectID = "D91-Wo-MPS"; */
+"D91-Wo-MPS.text" = "19.000 K.D";
+
+/* Class = "UILabel"; text = "CREATE ACCOUNT"; ObjectID = "De4-su-Qap"; */
+"De4-su-Qap.text" = "انشاء حساب";
+
+/* Class = "UILabel"; text = "Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label "; ObjectID = "F3m-jH-jHm"; */
+"F3m-jH-jHm.text" = "Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label ";
+
+/* Class = "UINavigationItem"; title = "MY ACCOUNT"; ObjectID = "GDZ-6y-tI4"; */
+"GDZ-6y-tI4.title" = "حسابي";
+
+/* Class = "UILabel"; text = "RESET PASSWORD"; ObjectID = "GJx-vg-qif"; */
+"GJx-vg-qif.text" = "استعادة كلمة المرور";
+
+/* Class = "UILabel"; text = "Order History"; ObjectID = "Htf-cK-zE1"; */
+"Htf-cK-zE1.text" = "سحل الطلبات";
+
+/* Class = "UILabel"; text = "House"; ObjectID = "Igx-Xz-cQG"; */
+"Igx-Xz-cQG.text" = "رقم المنزل";
+
+/* Class = "UILabel"; text = "Hm,it’s_seems_you’r in problem when signing. fill form below to get access your account"; ObjectID = "IpT-lF-m8L"; */
+"IpT-lF-m8L.text" = "الرجاء تعبئة الحقول لتتمكن من تسجيل الدخول";
+
+/* Class = "UILabel"; text = "Subtotal"; ObjectID = "J09-Hn-W9N"; */
+"J09-Hn-W9N.text" = "المجوع";
+
+/* Class = "UIButton"; normalTitle = "Don't have an account?"; ObjectID = "JDC-qM-qEr"; */
+"JDC-qM-qEr.normalTitle" = "ليس لديك حساب؟";
+
+/* Class = "UINavigationItem"; title = "HOME"; ObjectID = "JF2-My-9n2"; */
+"JF2-My-9n2.title" = "الرئيسية";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Jj6-Vq-CjX"; */
+"Jj6-Vq-CjX.placeholder" = "كلمة المرور";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "K3K-6H-Hev"; */
+"K3K-6H-Hev.placeholder" = "البريد الالكتروني";
+
+/* Class = "UILabel"; text = "Continue Shopping"; ObjectID = "K40-wN-zsE"; */
+"K40-wN-zsE.text" = "تسوق الان";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "KyY-52-80o"; */
+"KyY-52-80o.placeholder" = "الاسم الأول";
+
+/* Class = "UILabel"; text = "Add Address"; ObjectID = "L2s-Xj-BRd"; */
+"L2s-Xj-BRd.text" = "العنوان";
+
+/* Class = "UIButton"; normalTitle = "Forget Password?"; ObjectID = "MpL-5f-mZO"; */
+"MpL-5f-mZO.normalTitle" = "نسيت كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "skip"; ObjectID = "Nds-8S-HeT"; */
+"Nds-8S-HeT.normalTitle" = "تخطي";
+
+/* Class = "UILabel"; text = "Add To Cart"; ObjectID = "P7v-Gx-Ff3"; */
+"P7v-Gx-Ff3.text" = "اضف الى السلة";
+
+/* Class = "UIButton"; normalTitle = "VERIFY"; ObjectID = "Pbt-bJ-iBd"; */
+"Pbt-bJ-iBd.normalTitle" = "تأكيد";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "Ppt-aX-d7z"; */
+"Ppt-aX-d7z.placeholder" = "رقم الجوال";
+
+/* Class = "UINavigationItem"; title = "FAVORITES"; ObjectID = "QIc-Wk-HJI"; */
+"QIc-Wk-HJI.title" = "المفضلة";
+
+/* Class = "UILabel"; text = "Out of Stock"; ObjectID = "Qlk-aB-dqD"; */
+"Qlk-aB-dqD.text" = "نفذ المخزون";
+
+/* Class = "UILabel"; text = "Amount : "; ObjectID = "RMr-vy-KrW"; */
+"RMr-vy-KrW.text" = "الكمية: ";
+
+/* Class = "UILabel"; text = "Your order has been processed. Estimated delivery time of 3-6 days."; ObjectID = "Rad-qH-oEX"; */
+"Rad-qH-oEX.text" = "تمت معالجة طلبك. يقدر وقت التسليم من 3-6 أيام.";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "RbE-NR-4aG"; */
+"RbE-NR-4aG.placeholder" = "البريد الالكتروني";
+
+/* Class = "UILabel"; text = "Area"; ObjectID = "TLq-tI-vcM"; */
+"TLq-tI-vcM.text" = "الحي";
+
+/* Class = "UILabel"; text = "Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label "; ObjectID = "TQc-ib-vve"; */
+"TQc-ib-vve.text" = "Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label ";
+
+/* Class = "UIButton"; normalTitle = "CHECKOUT"; ObjectID = "WYp-im-av0"; */
+"WYp-im-av0.normalTitle" = "الدفع";
+
+/* Class = "UILabel"; text = "Street"; ObjectID = "XOI-R2-qIv"; */
+"XOI-R2-qIv.text" = "الشارع";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "ZWD-eJ-2SV"; */
+"ZWD-eJ-2SV.placeholder" = "اسم المستخدم";
+
+/* Class = "UILabel"; text = "ACCOUNT VERIFICATION"; ObjectID = "aOZ-Gc-Ezr"; */
+"aOZ-Gc-Ezr.text" = "تفعيل الحساب";
+
+/* Class = "UILabel"; text = "Payment type: "; ObjectID = "bLj-jT-mQA"; */
+"bLj-jT-mQA.text" = "طريقة الدفع: ";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "cW1-xI-8Hl"; */
+"cW1-xI-8Hl.placeholder" = "الاسم الاخير";
+
+/* Class = "UIButton"; normalTitle = "VIEW ORDER"; ObjectID = "dW3-Gv-B7u"; */
+"dW3-Gv-B7u.normalTitle" = "عرض الطلب";
+
+/* Class = "UILabel"; text = "CONGRATULATION"; ObjectID = "dhw-2N-IlA"; */
+"dhw-2N-IlA.text" = "تهانينا";
+
+/* Class = "UILabel"; text = "to the "; ObjectID = "dte-G1-97u"; */
+"dte-G1-97u.text" = "";
+
+/* Class = "UIButton"; normalTitle = "SHOPPING"; ObjectID = "duE-4c-2ZZ"; */
+"duE-4c-2ZZ.normalTitle" = "التسوق";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "dyq-nc-M97"; */
+"dyq-nc-M97.placeholder" = "الاسم الأخير";
+
+/* Class = "UIButton"; normalTitle = "PROCEED TO PAY"; ObjectID = "eMW-MV-5m3"; */
+"eMW-MV-5m3.normalTitle" = "ادفع الان";
+
+/* Class = "UIButton"; normalTitle = "اللغة العربية"; ObjectID = "eTf-Zl-qfi"; */
+"eTf-Zl-qfi.normalTitle" = "اللغة العربية";
+
+/* Class = "UILabel"; text = "ORDER NOTE"; ObjectID = "f47-tJ-7QD"; */
+"f47-tJ-7QD.text" = "ملاحظات";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "g7f-bP-yGC"; */
+"g7f-bP-yGC.placeholder" = "البريد الالكتروني";
+
+/* Class = "UINavigationItem"; title = "HOME"; ObjectID = "h6D-w9-fBt"; */
+"h6D-w9-fBt.title" = "الرئيسية";
+
+/* Class = "UITextField"; placeholder = "select"; ObjectID = "h9t-QM-FEq"; */
+"h9t-QM-FEq.placeholder" = "اختر";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "iCR-FU-pVL"; */
+"iCR-FU-pVL.normalTitle" = "حفظ";
+
+/* Class = "UISearchBar"; placeholder = "search"; ObjectID = "isV-QH-hgp"; */
+"isV-QH-hgp.placeholder" = "بحث";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "jEo-FX-Pki"; */
+"jEo-FX-Pki.normalTitle" = "تسحيل الدخول";
+
+/* Class = "UILabel"; text = "More Note"; ObjectID = "jRX-cb-lY0"; */
+"jRX-cb-lY0.text" = "ملاحظات اخرى";
+
+/* Class = "UILabel"; text = "Edit Profile"; ObjectID = "jY1-1X-bPj"; */
+"jY1-1X-bPj.text" = "تعديل البروفايل";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "jff-is-XbQ"; */
+"jff-is-XbQ.placeholder" = "كلمة المرور";
+
+/* Class = "UILabel"; text = "INVOICE ID : "; ObjectID = "kyX-ne-ixp"; */
+"kyX-ne-ixp.text" = "رفم الفاتورة: ";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "lrA-tK-bgN"; */
+"lrA-tK-bgN.placeholder" = "رقم الجوال";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "mAr-rW-ED7"; */
+"mAr-rW-ED7.normalTitle" = "English";
+
+/* Class = "UILabel"; text = "Province"; ObjectID = "mB5-j9-Vh0"; */
+"mB5-j9-Vh0.text" = "المحافظة";
+
+/* Class = "UIButton"; normalTitle = "Terms of use"; ObjectID = "mRJ-Oq-1X7"; */
+"mRJ-Oq-1X7.normalTitle" = "شروط الاستخدام";
+
+/* Class = "UIButton"; normalTitle = "UPDATE"; ObjectID = "mfw-tN-KCD"; */
+"mfw-tN-KCD.normalTitle" = "تعديل";
+
+/* Class = "UILabel"; text = "Please type the code below to verify your account."; ObjectID = "mwO-Zl-l6K"; */
+"mwO-Zl-l6K.text" = "يرجى كتابة الرمز أدناه للتحقق من حسابك.";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "oQQ-oe-jge"; */
+"oQQ-oe-jge.placeholder" = "اسم المستخدم";
+
+/* Class = "UILabel"; text = "21.000 K.D"; ObjectID = "ora-ZR-nSf"; */
+"ora-ZR-nSf.text" = "21.000 K.D";
+
+/* Class = "UILabel"; text = "Subtotal"; ObjectID = "p1a-SV-T4o"; */
+"p1a-SV-T4o.text" = "المجموع";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "p6X-xb-jPY"; */
+"p6X-xb-jPY.normalTitle" = "تسجيل جديد";
+
+/* Class = "UINavigationItem"; title = "HELP"; ObjectID = "pcs-L9-FFV"; */
+"pcs-L9-FFV.title" = "المساعدة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pu8-Jp-ik7"; */
+"pu8-Jp-ik7.text" = "Label";
+
+/* Class = "UILabel"; text = "Amount to pay for this order"; ObjectID = "q6E-Ip-dwl"; */
+"q6E-Ip-dwl.text" = "المبلغ المطلوب دفعه لهذا الطلب";
+
+/* Class = "UITextField"; placeholder = "please specify your special request"; ObjectID = "qaF-kF-Pdb"; */
+"qaF-kF-Pdb.placeholder" = "يرجى تحديد طلبك الخاص";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "qau-Tw-D3X"; */
+"qau-Tw-D3X.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "RESET"; ObjectID = "qvI-hB-Ws0"; */
+"qvI-hB-Ws0.normalTitle" = "استعادة";
+
+"ay-Sm-uF4.normalTitle" = "الموافقة على الشروط والأحكام";
+
+/* Class = "UILabel"; text = "12.000 KD"; ObjectID = "ssD-gH-Wx5"; */
+"ssD-gH-Wx5.text" = "12.000 KD";
+
+"NWb-P4-5E3.text" = "توصيل الطلب خلال 48 ساعة من بعد التأكيد";
+/* Class = "UITextField"; placeholder = "Password Confirmation"; ObjectID = "tso-4m-ofC"; */
+"tso-4m-ofC.placeholder" = "تأكيد كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "LOGOUT"; ObjectID = "tym-Kl-xYO"; */
+"tym-Kl-xYO.normalTitle" = "تسجيل خروج";
+
+/* Class = "UILabel"; text = "Delivery cost"; ObjectID = "vAD-4X-Oy4"; */
+"vAD-4X-Oy4.text" = "سعر التوصيل";
+
+/* Class = "UITextField"; placeholder = "select"; ObjectID = "x3E-cS-hmh"; */
+"x3E-cS-hmh.placeholder" = "اختر";
+
+/* Class = "UILabel"; text = "Thank you for shopping with us.\n"; ObjectID = "xO0-kN-i3k"; */
+"xO0-kN-i3k.text" = "نشكرك على التسوق معنا.";
+
+/* Class = "UILabel"; text = "ORDER DATE: "; ObjectID = "zYr-AQ-Kd7"; */
+"zYr-AQ-Kd7.text" = "تاريخ الطلب: ";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "zyM-nG-D5G"; */
+"zyM-nG-D5G.placeholder" = "الاسم الاول";

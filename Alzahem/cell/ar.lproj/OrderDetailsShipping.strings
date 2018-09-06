@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "7Cf-yf-KL7"; */
+"7Cf-yf-KL7.text" = "الحالة";
+
+/* Class = "UILabel"; text = "Payment"; ObjectID = "84h-Kd-UbL"; */
+"84h-Kd-UbL.text" = "الدفع";
+
+/* Class = "UILabel"; text = "INVOICE ID"; ObjectID = "8LJ-TW-vr5"; */
+"8LJ-TW-vr5.text" = "رقم الفاتورة";
+
+/* Class = "UILabel"; text = "1200 KD"; ObjectID = "8vz-M8-k57"; */
+"8vz-M8-k57.text" = "1200 KD";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "DDn-kt-Iva"; */
+"DDn-kt-Iva.text" = "المجوع";
+
+/* Class = "UILabel"; text = "Items"; ObjectID = "YIX-Yc-Vt8"; */
+"YIX-Yc-Vt8.text" = "المنتجات";
+
+/* Class = "UILabel"; text = "DELIVERED"; ObjectID = "e42-pD-C2O"; */
+"e42-pD-C2O.text" = "التوصيل";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fcA-Ag-3Ck"; */
+"fcA-Ag-3Ck.text" = "Label";
+
+/* Class = "UILabel"; text = "Shipping Address"; ObjectID = "gul-1b-p9J"; */
+"gul-1b-p9J.text" = "عنوان التوصيل";
+
+/* Class = "UILabel"; text = "Area - khaitan, block - 4, street - 90, house - 8, other info- near carmel school, floor 8, room 23. "; ObjectID = "joA-jx-szq"; */
+"joA-jx-szq.text" = "Area - khaitan, block - 4, street - 90, house - 8, other info- near carmel school, floor 8, room 23. ";
+
+/* Class = "UILabel"; text = "CASH"; ObjectID = "r53-Z8-tmr"; */
+"r53-Z8-tmr.text" = "كاش";

@@ -1,0 +1,81 @@
+/* 
+  Localizable.strings
+  Alzahem
+
+  Created by ibrahim M. samak on 8/2/18.
+  Copyright © 2018 ibrahim M. samak. All rights reserved.
+*/
+"Error" = "Error";
+"Done" = "Done";
+"Success" = "Success";
+"Please select the image source" = "Please select the image source";
+"Images" = "Images";
+"Cancel" = "Cancel";
+"Photo Library" = "Photo Library";
+"Camera" = "Camera";
+"Terms and conditions" = "Terms and conditions";
+"Terms & Conditions" = "Terms & Conditions";
+"Privacy Policy" = "Privacy Policy";
+"An Error occurred" = "An Error occurred";
+"No Internet Connection" = "No Internet Connection";
+"You have to login to get your favourite items" = "You have to login to get your favourite items";
+"out of stock" = "out of stock";
+" in stock" = " in stock";
+"CATEGORY TITLES" = "CATEGORY TITLES";
+"ORDER HISTORY" = "ORDER HISTORY";
+"Qty: " = "Qty: ";
+"ORDER DETAILS" = "ORDER DETAILS";
+"SHOPPING CART" = "SHOPPING CART";
+"You have an address would you like to change it?" = "You have an address would you like to change it?";
+"You have to add delivered address" = "You have to add delivered address";
+"You have to login to add item to your cart" = "You have to login to add item to your cart";
+"DELIVERY ADDRESS"  = "DELIVERY ADDRESS";
+"All Fields are required" = "All Fields are required";
+"PAYMENT DETAILS" =  "PAYMENT DETAILS";
+" Product(s)" = " Product(s)";
+"INVOICE" = "INVOICE";
+"Call" = "Call";
+"Email" = "Email";
+"SMS" = "SMS";
+"About Us" = "About Us";
+"About Application" = "About Application";
+"Terms & Conditions" = "Terms & Conditions";
+"PRODUCTS" = "PRODUCTS";
+"You have to login to add item to your favourite" = "You have to login to add item to your favourite";
+"Added to Cart Successfully" = "Added to Cart Successfully";
+"PRODUCT DETAILS" = "PRODUCT DETAILS";
+"You have to login to edit your profile" = "You have to login to edit your profile";
+"Warning" = "Warning";
+"Are you sure you want logout?" = "Are you sure you want logout?";
+"Logout" = "Logout";
+"EDIT USER INFORMATION" = "EDIT USER INFORMATION";
+"EXPLORE" = "EXPLORE";
+"FAST DELIVERY" = "FAST DELIVERY";
+"PAY IT" = "PAY IT";
+"Skip" = "Skip";
+"Continue" = "Continue";
+"Get Started!" = "Get Started!";
+"Find suitable product for your fashion style easily by swipe and scroll." = "Find suitable product for your fashion style easily by swipe and scroll.";
+"Process payment for your purchased items with your lovely payment method." = "Process payment for your purchased items with your lovely payment method.";
+"Within our dedicated delivery partner you’ll get your items fastly." = "Within our dedicated delivery partner you’ll get your items fastly.";
+"UIKit.font.Regular" = "Lato-Regular";
+"There is no quantity of this product" = "There is no quantity of this product";
+
+"street" = "street";
+"block" = "block";
+"price" = "price";
+"state_name" = "state_name";
+"home" = "home";
+"city_name" = "city_name";
+"department" = "department";
+"Use" = "Use";
+"Update" = "Update";
+"you have to agree terms and condition to continue" = "you have to agree terms and condition to continue";
+"use your current address: " = "use your current address: ";
+"SUB CATEGORY TITLES" = "SUB CATEGORY TITLES";
+"Order No. " = "Order No. ";
+"Please enter a valid email" = "Please enter a valid email";
+"link is not available right now" = "link is not available right now";
+"Warning change currency type leads to remove all items from cart" = "Warning change currency type leads to remove all items from cart";
+"DATE: "= "DATE: ";
+"free delivery" = "free delivery";

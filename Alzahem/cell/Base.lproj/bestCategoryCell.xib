@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="bestCategoryCell" rowHeight="225" id="KGk-i7-Jjw" customClass="bestCategoryCell" customModule="Alzahem" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="420" height="225"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="420" height="224.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recent Products" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFl-Sx-bAM" customClass="SACustomLabel" customModule="Alzahem" customModuleProvider="target">
+                        <rect key="frame" x="16" y="21" width="140.5" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="0zp-c8-n3Y"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="ar_font">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="en_font">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="dUn-ra-rds">
+                        <rect key="frame" x="16" y="50" width="357" height="164"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="164" id="85d-J5-YpY"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="NZz-j3-EbW">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OzP-Q2-EPw">
+                        <rect key="frame" x="387" y="188" width="19" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="I5h-PC-19O"/>
+                            <constraint firstAttribute="width" constant="19" id="WW1-dJ-OCW"/>
+                        </constraints>
+                        <state key="normal" image="arrow-right-path"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dUn-ra-rds" firstAttribute="top" secondItem="bFl-Sx-bAM" secondAttribute="bottom" constant="8" id="HJs-Oc-VAp"/>
+                    <constraint firstItem="bFl-Sx-bAM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="PIX-gr-QZ9"/>
+                    <constraint firstItem="dUn-ra-rds" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="SWK-uR-pgn"/>
+                    <constraint firstAttribute="trailing" secondItem="OzP-Q2-EPw" secondAttribute="trailing" constant="14" id="fpJ-Hp-gFC"/>
+                    <constraint firstAttribute="bottom" secondItem="OzP-Q2-EPw" secondAttribute="bottom" constant="14.5" id="gm7-09-5yC"/>
+                    <constraint firstItem="bFl-Sx-bAM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="oDG-4p-Zmy"/>
+                    <constraint firstAttribute="trailing" secondItem="dUn-ra-rds" secondAttribute="trailing" constant="47" id="ttE-mG-K6m"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnNext" destination="OzP-Q2-EPw" id="Qcg-Eu-q4g"/>
+                <outlet property="col" destination="dUn-ra-rds" id="NKQ-F4-mFZ"/>
+            </connections>
+            <point key="canvasLocation" x="38" y="-98.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow-right-path" width="15" height="13"/>
+    </resources>
+</document>

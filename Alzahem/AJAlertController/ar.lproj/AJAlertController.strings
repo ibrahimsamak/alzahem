@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Alert Title"; ObjectID = "Dzx-Z0-0cN"; */
+"Dzx-Z0-0cN.text" = "Alert Title";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "WmD-re-Md6"; */
+"WmD-re-Md6.normalTitle" = "موافق";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "fM5-6n-9SW"; */
+"fM5-6n-9SW.normalTitle" = "الفاء";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "yYL-rg-N41"; */
+"yYL-rg-N41.normalTitle" = "موافق";

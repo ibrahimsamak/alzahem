@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SliderAdvs" customModule="Alzahem" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="SliderAdvs" customModule="Alzahem" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="190"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DS5-un-N25">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="190"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sliderBg" translatesAutoresizingMaskIntoConstraints="NO" id="kHy-co-Qid">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="190"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KLl-NR-d3M">
+                    <rect key="frame" x="229" y="30" width="130" height="91"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="OhT-uW-oJT"/>
+                        <constraint firstAttribute="height" constant="91" id="r8h-WM-oOs"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Honeywell Focus Pro 5000 Non-Programmable " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Mm-po-kee" customClass="SACustomLabel" customModule="Alzahem" customModuleProvider="target">
+                    <rect key="frame" x="16" y="51" width="205" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="g2c-MO-73o"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="ar_font">
+                            <real key="value" value="17"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="en_font">
+                            <real key="value" value="17"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="73f-tm-daR">
+                    <rect key="frame" x="16" y="114" width="92" height="36"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40 kd" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4J-7W-o7k">
+                            <rect key="frame" x="0.0" y="0.0" width="92" height="36"/>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="ar_font">
+                                    <real key="value" value="13"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="en_font">
+                                    <real key="value" value="13"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueN-xt-iex">
+                            <rect key="frame" x="-20" y="-113" width="375" height="190"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.95294117647058818" green="0.81176470588235294" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="25n-u4-i6r"/>
+                        <constraint firstAttribute="bottom" secondItem="q4J-7W-o7k" secondAttribute="bottom" id="HSK-HH-qz2"/>
+                        <constraint firstAttribute="width" constant="92" id="IFB-Cb-mjK"/>
+                        <constraint firstAttribute="trailing" secondItem="q4J-7W-o7k" secondAttribute="trailing" id="NMT-av-WIH"/>
+                        <constraint firstItem="q4J-7W-o7k" firstAttribute="top" secondItem="73f-tm-daR" secondAttribute="top" id="PDI-2A-sgI"/>
+                        <constraint firstItem="q4J-7W-o7k" firstAttribute="leading" secondItem="73f-tm-daR" secondAttribute="leading" id="zzq-qY-GKf"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="18"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xou-0k-9Sv">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="190"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Honeywell Focus Pro 5000 Non-Programmable " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ov-Oj-BQd" customClass="SACustomLabel" customModule="Alzahem" customModuleProvider="target">
+                    <rect key="frame" x="16" y="71" width="205" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="kdG-mh-LTo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="ar_font">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="en_font">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="DS5-un-N25" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0lI-rE-MTI"/>
+                <constraint firstItem="3Mm-po-kee" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="51" id="3Sj-gk-X1g"/>
+                <constraint firstAttribute="bottom" secondItem="kHy-co-Qid" secondAttribute="bottom" id="6zr-zi-nCK"/>
+                <constraint firstItem="KLl-NR-d3M" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="Ai5-yh-6tN"/>
+                <constraint firstItem="kHy-co-Qid" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="DsX-9r-ej9"/>
+                <constraint firstItem="73f-tm-daR" firstAttribute="top" secondItem="0ov-Oj-BQd" secondAttribute="bottom" constant="19" id="EUw-YH-zHU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="DS5-un-N25" secondAttribute="bottom" id="Heu-q7-7Mk"/>
+                <constraint firstItem="Xou-0k-9Sv" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="Ioe-aU-5tT"/>
+                <constraint firstAttribute="trailing" secondItem="kHy-co-Qid" secondAttribute="trailing" id="MxZ-fP-QWf"/>
+                <constraint firstItem="0ov-Oj-BQd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Qkb-jA-INL"/>
+                <constraint firstItem="73f-tm-daR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="RYI-V2-2Ku"/>
+                <constraint firstItem="0ov-Oj-BQd" firstAttribute="top" secondItem="3Mm-po-kee" secondAttribute="bottom" id="VdN-O7-Ckw"/>
+                <constraint firstItem="KLl-NR-d3M" firstAttribute="leading" secondItem="0ov-Oj-BQd" secondAttribute="trailing" constant="8" id="YqV-8g-IGT"/>
+                <constraint firstItem="KLl-NR-d3M" firstAttribute="leading" secondItem="3Mm-po-kee" secondAttribute="trailing" constant="8" id="dac-eh-1ho"/>
+                <constraint firstItem="3Mm-po-kee" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="feJ-cU-rZy"/>
+                <constraint firstItem="kHy-co-Qid" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="fwZ-72-RDG"/>
+                <constraint firstItem="DS5-un-N25" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="fy3-7H-9S7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KLl-NR-d3M" secondAttribute="trailing" constant="16" id="m5s-I3-4i3"/>
+                <constraint firstItem="Xou-0k-9Sv" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="o9g-xn-WzQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DS5-un-N25" secondAttribute="trailing" id="s05-hO-q9f"/>
+                <constraint firstItem="Xou-0k-9Sv" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="uSH-JU-MGc"/>
+                <constraint firstItem="Xou-0k-9Sv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="zAB-RQ-5Ab"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <connections>
+                <outlet property="btn" destination="Xou-0k-9Sv" id="zJn-1S-6RQ"/>
+                <outlet property="img" destination="KLl-NR-d3M" id="Kat-g4-DtA"/>
+                <outlet property="lblDesc" destination="0ov-Oj-BQd" id="nNY-yt-8Sy"/>
+                <outlet property="lblPrice" destination="q4J-7W-o7k" id="D4N-a2-dP4"/>
+                <outlet property="lblTitle" destination="3Mm-po-kee" id="C4z-Pn-MzU"/>
+            </connections>
+            <point key="canvasLocation" x="39.5" y="-112"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sliderBg" width="375" height="190"/>
+    </resources>
+</document>
