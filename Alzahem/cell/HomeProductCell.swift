@@ -8,6 +8,8 @@
 
 import UIKit
 
+/// Home-screen section cell: a titled product row with a "view more" button and
+/// a drop shadow. Mirrors title/arrow for Arabic.
 class HomeProductCell: UITableViewCell {
 
     @IBOutlet weak var lblTitle: UILabel!
