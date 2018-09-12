@@ -11,7 +11,6 @@ import UIKit
 
 class SACustomButton: UIButton
 {
-    
     @IBInspectable
     public var ar_font: CGFloat = 17 {
         didSet {

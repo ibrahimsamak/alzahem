@@ -1,0 +1,6 @@
+framework module Pods_Alzahem {
+  umbrella header "Pods-Alzahem-umbrella.h"
+
+  export *
+  module * { export * }
+}
