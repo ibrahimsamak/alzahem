@@ -8,6 +8,10 @@
 
 import Foundation
 
+// Style enums for the bundled MMSegmentControl: how segments are laid out
+// (fixed vs. dynamic width), whether they render text or images, and where/if
+// the selection indicator and box are drawn.
+
 public enum MMSegmentedControlLayoutPolicy {
     case fixed
     case dynamic
