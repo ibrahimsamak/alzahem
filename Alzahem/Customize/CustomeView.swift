@@ -9,9 +9,11 @@
 import Foundation
 import UIKit
 
+/// Rounded, red-bordered container view (corner radius 25) applied from
+/// storyboards where a pill-shaped card is needed.
 class CustomeView: UIView
 {
-    
+
     override func awakeFromNib()
     {
         super.awakeFromNib()
