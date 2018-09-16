@@ -9,11 +9,17 @@
 import UIKit
 import SDWebImage
 
+/// Home-screen row that embeds a horizontal product carousel. It is its own
+/// collection-view data source/delegate, rendering `RecentPrductCell`s from the
+/// `Products` payload (computing discount %, stock/sold-out state) and pushing
+/// the product-details screen when one is tapped.
 class bestCategoryCell: UITableViewCell , UICollectionViewDelegate , UICollectionViewDelegateFlowLayout ,  UICollectionViewDataSource,UIScrollViewDelegate {
 
     @IBOutlet weak var col: UICollectionView!
     @IBOutlet weak var btnNext: UIButton!
+    /// Products shown in the embedded carousel.
     var Products : NSArray = []
+    /// Host controller used to push the product-details screen on tap.
     var customeVC:UIViewController = UIViewController()
 
     override func awakeFromNib()
@@ -27,6 +33,7 @@ class bestCategoryCell: UITableViewCell , UICollectionViewDelegate , UICollectio
         }
     }
 
+    /// Registers the carousel cell and wires up the embedded collection view.
     func config()
     {
         self.col.contentInset = UIEdgeInsets(top: 23, left: 5, bottom: 10, right: 5)
