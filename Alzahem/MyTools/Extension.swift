@@ -11,6 +11,15 @@ import SKActivityIndicatorView
 import PopupDialog
 import RealmSwift
 
+// App-wide extensions used across every screen. Highlights:
+//  • UIViewController: loading spinner (`showIndicator`/`hideIndicator`),
+//    navigation-bar styling, and the various `showAlert…` wrappers around
+//    `AJAlertController`.
+//  • String: `localized`, HTML→string, colour/email helpers.
+//  • UIStoryboard.instanceVC(): type-safe view-controller instantiation used
+//    throughout the app (identifier must equal the class name).
+
+/// Converts a Realm `Results` set into a plain Swift array of the given type.
 extension Results {
     func toArray<T>(ofType: T.Type) -> [T] {
         var array = [T]()
@@ -380,6 +389,9 @@ extension Double {
 
 
 extension UIStoryboard {
+    /// Instantiates a view controller whose storyboard identifier matches its
+    /// class name — the app's standard way to create screens (e.g.
+    /// `AppDelegate.storyboard.instanceVC() as SAProductsDetails`).
     func instanceVC<T: UIViewController>() -> T {
         guard let vc = instantiateViewController(withIdentifier: String(describing: T.self)) as? T else {
             fatalError("Could not locate viewcontroller with with identifier \(String(describing: T.self)) in storyboard.")
