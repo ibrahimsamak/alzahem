@@ -10,11 +10,15 @@
 import  UIKit
 import SDWebImage
 
+/// Notifies the presenter when the picker finishes (e.g. currency changed).
 protocol GeneralProtocol
 {
     func sendFilter(isFinist:Bool)
 }
 
+/// Modal picker for choosing the display currency. The selection is saved to
+/// `UserDefaults` (CurrencyId/CurrencyName) and the presenter is notified via
+/// `delegate` so it can refresh prices.
 class SACurrency: UIViewController , UITableViewDelegate , UITableViewDataSource
 {
     @IBOutlet weak var tbl: UITableView!
