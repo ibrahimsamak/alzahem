@@ -9,6 +9,8 @@
 import UIKit
 import SwiftyOnboard
 
+/// Hosts the SwiftyOnboard intro slider. Acts as its data source/delegate and,
+/// on Skip/finish, pushes the advertisement screen (`SAAdv`).
 class SASliderVC: UIViewController {
     
     @IBOutlet weak var swiftyOnboard: SwiftyOnboard!
