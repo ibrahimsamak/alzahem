@@ -9,6 +9,8 @@
 import UIKit
 import SwiftyOnboard
 
+/// SwiftyOnboard overlay (page control + skip/continue buttons) drawn on top of
+/// the onboarding pages. Localizes the skip button title.
 class CustomOverlay: SwiftyOnboardOverlay {
     
     @IBOutlet weak var skip: UIButton!
