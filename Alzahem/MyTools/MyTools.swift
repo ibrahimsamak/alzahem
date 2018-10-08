@@ -12,6 +12,8 @@ import SystemConfiguration
 import AVFoundation
 import AVKit
 //import CRNotifications
+// Optional comparison operators restored for the legacy Swift-2-style code
+// below (Swift 3+ removed automatic optional `<` / `>=`).
 fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
     switch (lhs, rhs) {
     case let (l?, r?):    return l < r
@@ -29,8 +31,14 @@ fileprivate func >= <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 
 
 
+/// Grab-bag of app-wide helpers exposed through the `tools` singleton:
+/// session/prefs accessors (`getMyId`, `getMyToken`, `getMyLang`,
+/// `getMyCurrency`), network reachability, date formatting, colour parsing,
+/// fonts and simple validation. Many accessors force-unwrap `UserDefaults`
+/// values, so they assume the relevant data (e.g. a logged-in user) exists.
 class MyTools{
-    
+
+    /// Shared singleton.
     static var tools = MyTools()
     
     
@@ -87,6 +95,7 @@ class MyTools{
     //    }
     
     
+    /// Returns true when the string looks like a valid email address.
     func validateEmail(candidate: String) -> Bool {
         let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}"
         return NSPredicate(format: "SELF MATCHES %@", emailRegex).evaluate(with: candidate)
@@ -109,8 +118,10 @@ class MyTools{
         
     }
     
+    /// Reachability check using SystemConfiguration — true when the device has
+    /// a usable network path that requires no further connection.
     func connectedToNetwork() -> Bool {
-        
+
         var zeroAddress = sockaddr_in()
         zeroAddress.sin_len = UInt8(MemoryLayout<sockaddr_in>.size)
         zeroAddress.sin_family = sa_family_t(AF_INET)
@@ -161,6 +172,8 @@ class MyTools{
         return CurrencyName
     }
     
+    /// Two-letter language code for the current locale ("ar" or e.g. "en"),
+    /// sent as the `Customer-Language` header on API requests.
     func getMyLang() -> String
     {
         if(Language.currentLanguage() != "ar"){
@@ -189,6 +202,8 @@ class MyTools{
     }
     
     
+    /// Current user's id from the cached `CurrentUser` dictionary.
+    /// Force-unwraps — crashes if no user is logged in.
     func getMyId() -> String
     {
         let ns = UserDefaults.standard
@@ -196,7 +211,9 @@ class MyTools{
         let id = dict.value(forKey: "id") as! Int
         return String(id)
     }
-    
+
+    /// Current user's access token from the cached `CurrentUser` dictionary.
+    /// Force-unwraps — crashes if no user is logged in.
     func getMyToken() -> String
     {
         let ns = UserDefaults.standard
@@ -220,8 +237,9 @@ class MyTools{
     }
     
     
+    /// Builds a `UIColor` from a 3-, 6- or 8-digit hex string (RGB/ARGB).
     func colorWithHexString (_ hexStr:String) -> UIColor {
-        
+
         let hex = hexStr.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int = UInt32()
         Scanner(string: hex).scanHexInt32(&int)
