@@ -10,6 +10,8 @@
 import UIKit
 import TextFieldEffects
 
+/// Account-verification screen: user enters the code sent to them, verified via
+/// `MyApi.PostCheckCode` (with the option to request a new code).
 class SAVerifyCode: UIViewController {
 
     @IBOutlet weak var btn: UIButton!
