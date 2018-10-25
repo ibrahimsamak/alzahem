@@ -9,6 +9,9 @@
 import UIKit
 import SDWebImage
 
+/// Full-screen promotional/advertisement splash shown to first-time users
+/// (with a Skip button). Marks onboarding complete by setting the `isFirst`
+/// flag so it is not shown again.
 class SAAdv: UIViewController {
 
     @IBOutlet weak var btn: SACustomButton!
