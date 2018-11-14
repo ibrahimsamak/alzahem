@@ -8,9 +8,12 @@
 
 import UIKit
 
+/// `@IBDesignable` view exposing shadow colour/opacity/offset/radius and corner
+/// radius as Interface-Builder-inspectable properties, so cards can be styled
+/// entirely from storyboards (class name intentionally spelled "ShaddowView").
 @IBDesignable
 class ShaddowView: UIView {
-    
+
     /* The color of the shadow. Defaults to opaque black. Colors created
      * from patterns are currently NOT supported. Animatable. */
     @IBInspectable var shadowColor: UIColor? {
