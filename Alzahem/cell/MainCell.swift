@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Generic two-line table cell (title + subtitle) with RTL-aware alignment.
 class MainCell: UITableViewCell {
 
     @IBOutlet weak var lblSub: UILabel!
