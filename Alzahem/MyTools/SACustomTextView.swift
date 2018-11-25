@@ -9,9 +9,12 @@
 import Foundation
 import UIKit
 
+/// Language-aware field like `SACustomTextField`. Despite the "TextView" name it
+/// subclasses `UITextField`, applying `ar_font`/`en_font` per language.
 class SACustomTextView: UITextField
 {
-    
+
+    /// Font size used when the language is Arabic.
     @IBInspectable
     public var ar_font: CGFloat = 17 {
         didSet {
