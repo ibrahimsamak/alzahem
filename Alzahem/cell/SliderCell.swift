@@ -8,11 +8,16 @@
 
 import UIKit
 
+/// Home-screen table cell that hosts an auto-scrolling image banner
+/// (`CPImageSlider`). `config()` maps the `objects` payload into image URLs;
+/// tapping a slide opens the corresponding product's details screen.
 class SliderCell: UITableViewCell , CPSliderDelegate
 {
     @IBOutlet weak var slider: CPImageSlider!
     var imagesArray = [String]()
+    /// Raw slider payload (each entry carries an `image_src` and product `id`).
     var objects:NSArray = []
+    /// Host controller used to push the product-details screen on tap.
     var customeVC:UIViewController = UIViewController()
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,6 +28,8 @@ class SliderCell: UITableViewCell , CPSliderDelegate
         super.setSelected(selected, animated: animated)
     }
     
+    /// Configures the banner: wires the delegate, enables auto-scroll and feeds
+    /// it the image URLs extracted from `objects`.
     func config()
     {
         self.slider.delegate = self
