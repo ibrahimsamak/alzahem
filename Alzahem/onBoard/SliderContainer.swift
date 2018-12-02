@@ -8,6 +8,9 @@
 
 import UIKit
 import  SwiftyOnboard
+
+/// Minimal SwiftyOnboard overlay exposing just the page control, loaded from its
+/// nib and layered over the promotional slider pages.
 class SliderContainer: SwiftyOnboardOverlay {
 
     @IBOutlet weak var contentControl: UIPageControl!
