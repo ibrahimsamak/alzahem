@@ -8,6 +8,9 @@
 
 import UIKit
 
+// Third-party: GMStepper by Gunay Mert Karadogan (github.com/gmertk/GMStepper).
+// An animated -/+ stepper control; used for quantity selection in the cart and
+// product screens.
 @IBDesignable public class GMStepper: UIControl {
 
     /// Current value of the stepper. Defaults to 0.
