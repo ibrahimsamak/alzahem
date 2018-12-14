@@ -8,8 +8,13 @@
 
 import UIKit
 
+/// Handles in-app language switching (EN/AR) and layout direction. Persists the
+/// selected/default language in `UserDefaults`, forces the correct RTL/LTR
+/// `semanticContentAttribute`, and — via the `UIView.awakeFromNib` swizzle at
+/// the bottom of this file — auto-localizes storyboard text. Third-party:
+/// github.com/Abedalkareem/LanguageManger-iOS.
 class LanguageManger {
-    
+
     /// Returns the singleton LanguageManger instance.
     static let shared: LanguageManger = LanguageManger()
     
@@ -110,6 +115,8 @@ enum Languages:String {
 
 // MARK: Swizzling
 extension UIView {
+    /// Swaps `awakeFromNib` with `swizzledAwakeFromNib` so every view loaded
+    /// from a nib/storyboard is localized automatically.
     static func localize() {
         
         let orginalSelector = #selector(awakeFromNib)
