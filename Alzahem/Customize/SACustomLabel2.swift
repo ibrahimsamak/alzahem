@@ -10,9 +10,12 @@
 import Foundation
 import UIKit
 
+/// Like `SACustomLabel` but uses the app's secondary/bold font faces
+/// (`appFontAr2` / `appFontEn2`) picked by language.
 class SACustomLabel2: UILabel
 {
-    
+
+    /// Font size used when the language is Arabic.
     @IBInspectable
     public var ar_font: CGFloat = 17 {
         didSet {
