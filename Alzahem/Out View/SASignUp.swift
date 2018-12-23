@@ -9,6 +9,8 @@
 import UIKit
 import TextFieldEffects
 
+/// Registration screen: collects name, username, email, phone and password (with
+/// confirmation) and creates the account via the API.
 class SASignUp: UIViewController {
 
     
