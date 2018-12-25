@@ -8,17 +8,22 @@
 
 import UIKit
 
+/// A category and its (possibly nested) sub-categories.
 struct Category {
     let name : String
     var Sub : NSArray
 }
 
+/// Reports the chosen category id back to a product listing screen.
 protocol CategoryProtocol
 {
     func sendFilterCategory(catID:Int,isFinish:Bool)
 }
 
 
+/// Category browsing screen: lists top-level categories (loaded via
+/// `MyApi.GetCategories`); selecting one drills into its sub-categories /
+/// products.
 class SACategory: UIViewController , UITableViewDelegate  , UITableViewDataSource
 {
     @IBOutlet weak var tbl: UITableView!

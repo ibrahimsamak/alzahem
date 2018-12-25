@@ -9,6 +9,9 @@
 import UIKit
 import BIZPopupView
 
+/// Checkout address form. Presents the city/district pickers (`CityProtocol` /
+/// `DistrictProtocol`) and captures the shipping address used when placing an
+/// order.
 class SAAddAddress: UIViewController , DistrictProtocol , CityProtocol
 {
 

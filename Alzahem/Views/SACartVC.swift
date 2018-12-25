@@ -9,6 +9,9 @@
 import UIKit
 import SDWebImage
 
+/// Shopping cart screen. Lists the local Realm cart lines (via
+/// `RealmFunctions`), lets the user change quantities/remove items, shows the
+/// running total, and proceeds to checkout.
 class SACartVC: UIViewController, UITableViewDelegate  , UITableViewDataSource  {
     
     @IBOutlet weak var MainvView: UIView!

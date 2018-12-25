@@ -12,6 +12,9 @@ import BIZPopupView
 import DGElasticPullToRefresh
 import SwiftyOnboard
 
+/// Main landing screen. A table view of home sections — banner slider, product
+/// rows and category carousels — populated from `MyApi.GetHome`, with elastic
+/// pull-to-refresh. Also handles currency changes (`GeneralProtocol`).
 class SAHome: UIViewController , UITableViewDelegate  , UITableViewDataSource,GeneralProtocol
 {
     

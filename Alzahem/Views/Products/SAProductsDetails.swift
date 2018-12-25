@@ -10,6 +10,10 @@
 import UIKit
 import SDWebImage
 import GSImageViewerController
+
+/// Product-details screen: image slider (tap to view full screen), title,
+/// price, rating and description, a quantity stepper and add-to-cart /
+/// favourite actions. Loads the product by `id` via `MyApi.GetSingleProducts`.
 class SAProductsDetails: UIViewController , CPSliderDelegate {
     
     func sliderImageTapped(slider: CPImageSlider, index: Int)

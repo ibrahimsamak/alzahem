@@ -8,6 +8,8 @@
 
 import UIKit
 
+/// Post-checkout invoice/confirmation screen showing the order id, date, amount
+/// and payment method after a purchase is placed.
 class SAInvoice: UIViewController {
 
     @IBOutlet weak var lblOrderDate: UILabel!

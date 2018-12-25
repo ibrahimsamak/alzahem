@@ -9,6 +9,10 @@
 import UIKit
 import SDWebImage
 import DGElasticPullToRefresh
+
+/// Product listing screen: a paginated collection-view grid of products that can
+/// be filtered by category (`CategoryProtocol`) or searched, with infinite
+/// scroll and pull-to-refresh. Tapping a product opens `SAProductsDetails`.
 class SAProducts: UIViewController , UICollectionViewDelegate , UICollectionViewDelegateFlowLayout ,  UICollectionViewDataSource,UIScrollViewDelegate , UISearchBarDelegate , CategoryProtocol{
    
     func sendFilterCategory(catID: Int, isFinish: Bool) {
